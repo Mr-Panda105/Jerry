@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Letter For Jerry</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      font-family: 'Georgia', serif;
+    }
+    .letter-box {
+      width: 90%;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: #000;
+      border: 5px solid;
+      border-image: linear-gradient(270deg, red, #1e90ff, red) 1;
+      border-radius: 16px;
+      color: white;
+      overflow: hidden;
+      animation: borderAnimation 5s linear infinite;
+    }
+    @keyframes borderAnimation {
+      0% {
+        border-image-source: linear-gradient(270deg, red, #1e90ff, red);
+      }
+      50% {
+        border-image-source: linear-gradient(270deg, #1e90ff, red, #1e90ff);
+      }
+      100% {
+        border-image-source: linear-gradient(270deg, red, #1e90ff, red);
+      }
+    }
+    .letter-text {
+      font-size: 16px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+      margin-top: 10px;
+    }
+    .checkbox-list {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 2;
+    }
+    .checkbox-list label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+    /* Checkbox styling for better visibility on dark background */
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="letter-box">
+    <div class="letter-text">
+Dear Jerry,
+
+My respect and love for you will always remain. If my words ever hurt you or if I become too emotional, please forgive me.
+
+You should know that I’ve been in two relationships before — one ended in betrayal, and the other I had no real interest in. I’ve shared everything with you. I’ve also told you since when I started liking you. Now you might think I’m repeating the same things again, but I’m not.
+
+Honestly, I miss the last moments I spent with you, and the last messages we exchanged. I don’t even know how much I truly love you. But whenever I remember those final times with you, it feels like something is missing, like there’s an emptiness inside.
+
+Remembering the last things you said makes me feel bad. Sometimes I wonder if I hadn’t expressed my feelings, maybe things would still be different. Maybe you wouldn’t have known how much I loved you.
+
+You know!  
+Whenever I miss you, I listen to your voice messages that you sent on Messenger and Instagram. I look at the pictures you gave me and wonder why I have become so weak for you.
+
+You might think I have forgotten you after all this time, but I’m sorry — I still haven’t been able to forget you.
+
+I know we will never be together. Because a Brahmin can never see the moon. Yet, with a sky as vast as this, I wish to see you once with my own eyes.
+
+If I start to tell you everything in my heart, it will never end. I won’t exaggerate anymore.
+
+If any of my words hurt you, if I make you angry or feel annoyed, please forgive me.
+
+For my last words, I will say: stay well and be happy.  
+I love you. Allah Hafez.
+
+
+    </div> 
+    <div class="checkbox-list"> Your Immature  <br>[Your Choice I cant see that, because this is not made by programing.]
+      <label><input type="checkbox" name="relation" value="friend"> Friend Mr. Panda</label><br/>
+      <label><input type="checkbox" name="relation" value="brother"> Brother Mr. Panda</label><br/>
+      <label><input type="checkbox" name="relation" value="love"> Love Mr. Panda</label>
+    </div>
+  </div>
+</body>
+</html>
